@@ -1,0 +1,34 @@
+/* makes the logo banner appear in print*/
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+}
+
+body {
+	font-family: arial;
+	border: none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+nav, section img{
+	display: none !important;
+}
+
+header{
+	background-color: #fff;
+	border: 0;
+	margin-bottom: 3%;
+}
+
+body{
+    float: none !important;
+}
+
+nav,section{
+    margin: 0 !important;
+}
+
